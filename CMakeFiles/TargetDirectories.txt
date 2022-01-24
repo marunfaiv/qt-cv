@@ -1,0 +1,4 @@
+/home/arya/project/qtcv/CMakeFiles/rebuild_cache.dir
+/home/arya/project/qtcv/CMakeFiles/edit_cache.dir
+/home/arya/project/qtcv/CMakeFiles/vision_app.dir
+/home/arya/project/qtcv/CMakeFiles/vision_app_autogen.dir

@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/home/arya/project/qtcv/vision_app_autogen",
+	"CMAKE_BINARY_DIR" : "/home/arya/project/qtcv",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/arya/project/qtcv",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/arya/project/qtcv",
+	"CMAKE_SOURCE_DIR" : "/home/arya/project/qtcv",
+	"INCLUDE_DIR" : "/home/arya/project/qtcv/vision_app_autogen/include",
+	"INPUTS" : [ "/home/arya/project/qtcv/resources.qrc" ],
+	"LOCK_FILE" : "/home/arya/project/qtcv/CMakeFiles/vision_app_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/arya/project/qtcv/CMakeFiles/vision_app_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/arya/project/qtcv/resources.qrc",
+	"VERBOSITY" : 0
+}
