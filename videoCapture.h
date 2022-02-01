@@ -8,6 +8,7 @@
 #include <opencv4/opencv2/opencv.hpp>
 
 #define ID_CAMERA 0
+#define ID_VIDEO "Otomenantoka.mp4"
 
 class VideoCapture : public QThread
 {

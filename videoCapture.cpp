@@ -1,8 +1,13 @@
 #include "videoCapture.h"
 #include <QDebug>
+#include <chrono>
+#include <thread>
+#include <unistd.h>
+
+using namespace std::chrono;
 
 VideoCapture::VideoCapture(QObject *parent)
-    : QThread{parent}, cap{ID_CAMERA}
+    : QThread{parent}, cap{ID_VIDEO}
 {
 }
 
@@ -17,7 +22,11 @@ void VideoCapture::run()
     {
         while (true)
         {
-            cap >> frame;
+            // cv::waitKey(1);
+            // sleep_for(nanoseconds(500));
+            usleep(50000);
+            // cap >> frame;
+            cap.read(frame);
             if (!frame.empty())
             {
                 mPixmap = cvMatToQPixmap(frame);
@@ -29,6 +38,7 @@ void VideoCapture::run()
 
 QImage VideoCapture::cvMatToQImage(const cv::Mat &inMat)
 {
+    // std::cout << inMat.type() << std::endl;
     switch (inMat.type())
     {
     // 8-bit, 4 channel
